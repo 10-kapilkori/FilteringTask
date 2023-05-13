@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/custom_filter_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_asc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asc_name" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_desc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_name" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_asc_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asc_category_name" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_desc_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_category_name" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_rating" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_asc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asc_price" />
+
+        <RadioButton
+            android:id="@+id/custom_filter_rb_desc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_price" />
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/custom_filter_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@id/custom_filter_rg"
+        app:layout_constraintTop_toBottomOf="@id/custom_filter_rg" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/custom_filter_btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@id/custom_filter_rg"
+        app:layout_constraintTop_toBottomOf="@id/custom_filter_rg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FilteringTask</string>
+    <string name="filter_search">Filter</string>
+    <string name="asc_name">A-Z by Name</string>
+    <string name="desc_name">Z-A by Name</string>
+    <string name="asc_category_name">A-Z Category by Name</string>
+    <string name="desc_category_name">Z-A Category by Name</string>
+    <string name="sort_rating">Sort by Rating</string>
+    <string name="asc_price">High to Low</string>
+    <string name="desc_price">Low to High</string>
+    <string name="username">UserName</string>
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="no_data">No Data Found</string>
+    <string name="name">Name: </string>
+    <string name="category_name">Category: </string>
+    <string name="rating">Rating: </string>
+    <string name="price">Price: </string>
+</resources>
